@@ -6,9 +6,9 @@
  * @size: is the size
  * @action: is something
  */
-void array_iterator(int *array, size_t size, void (*action)(iny))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsighned int i;
+	unsigned int i;
 
 	if (array == NULL)
 		return;
